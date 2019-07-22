@@ -16,7 +16,8 @@ def find_max_value(array)
       max_num = array[index]
     end   
     index += 1 
-  end   
+  end
+  return max_num
     #array.max
 end
 
